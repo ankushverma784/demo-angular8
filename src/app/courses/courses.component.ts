@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Course} from '../course';
-@Component({
+import {COURSE} from './../mock-courses'
+ @Component({
   selector: 'app-courses',
   templateUrl: './courses.component.html',
   styleUrls: ['./courses.component.css']
